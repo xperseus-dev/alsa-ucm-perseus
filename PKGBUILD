@@ -1,6 +1,6 @@
 pkgname=alsa-ucm-beryllium
 pkgver=0.1
-pkgrel=1
+pkgrel=2
 pkgdesc="UCM files for Xiaomi Pocophone F1"
 arch=(any)
 url="https://github.com/jld3103/alsa-ucm-beryllium"
@@ -11,6 +11,7 @@ md5sums=('SKIP')
 
 package() {
     for file in \
+        "ucm.conf" \
         "codecs/tas2559/DefaultDisableSeq.conf" \
         "codecs/tas2559/DefaultEnableSeq.conf" \
         "codecs/tas2559/EarpieceEnableSeq.conf" \
