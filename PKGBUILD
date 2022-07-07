@@ -1,12 +1,12 @@
 pkgname=alsa-ucm-conf
 pkgver=1.2.4
 pkgrel=1
-_commit=9e0051807472822bc4090a2d03ab5dacd7787ab8
-pkgdesc="ALSA Use Case Manager configuration (and topologies) with Xiaomi Pocophone F1 configs"
+_commit=21831ec8e39019e1cdacbf5e914ee3031c9ba6ec
+pkgdesc="ALSA Use Case Manager configuration (and topologies) with Xiaomi Mi MIX 3 configs"
 arch=(any)
-url="https://gitlab.com/sdm845-mainline/alsa-ucm-conf"
+url="https://gitlab.com/xperseus/alsa-ucm-conf"
 license=('BSD')
-source=("git+https://gitlab.com/sdm845-mainline/alsa-ucm-conf.git/#commit=$_commit")
+source=("git+https://gitlab.com/xperseus/alsa-ucm-conf.git/#commit=$_commit")
 sha256sums=('SKIP')
 
 package() {
