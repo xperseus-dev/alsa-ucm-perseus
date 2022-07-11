@@ -1,7 +1,7 @@
 pkgname=alsa-ucm-conf
 pkgver=1.2.4
 pkgrel=1
-_commit=21831ec8e39019e1cdacbf5e914ee3031c9ba6ec
+_commit=43a2e461c40fc1c1ef90d21c6d5aa1934ca2e82e
 pkgdesc="ALSA Use Case Manager configuration (and topologies) with Xiaomi Mi MIX 3 configs"
 arch=(any)
 url="https://gitlab.com/xperseus/alsa-ucm-conf"
